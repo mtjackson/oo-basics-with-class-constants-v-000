@@ -6,8 +6,9 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-    i = 0
     BRANDS.each do |brand|
+      i = 0
+      while i < BRANDS.length
       if BRANDS[i] != brand
         BRANDS << brand
       end
