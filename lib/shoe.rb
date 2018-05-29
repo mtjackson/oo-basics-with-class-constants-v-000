@@ -14,8 +14,8 @@ class Shoe
   end
 
   def brand
-    brand
-    BRANDS << brand
+    @brand
+    BRANDS << @brand
   end
 
 end
